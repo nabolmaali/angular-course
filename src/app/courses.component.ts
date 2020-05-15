@@ -5,7 +5,7 @@ import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 //decorator function
 //has properties how component is working
 @Component({
-    selector: 'courses',
+    selector: 'course',
     template: 
     `
 
