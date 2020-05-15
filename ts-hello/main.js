@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var point_1 = require("./point");
+var like_1 = require("./like");
+var point = new point_1.Point(1, 2);
+var like = new like_1.Like(2, true);
+console.log('number of like: ' + like.likeNum + ' state: ' + like.state);
+like.likeAction();
+console.log('number of like: ' + like.likeNum + ' state: ' + like.state);
+like.likeAction();
+console.log('number of like: ' + like.likeNum + ' state: ' + like.state);
+like.likeAction();
+console.log('number of like: ' + like.likeNum + ' state: ' + like.state);
+like.likeAction();
+console.log('number of like: ' + like.likeNum + ' state: ' + like.state);
+point.draw();

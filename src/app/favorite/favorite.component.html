@@ -1,0 +1,12 @@
+<p>favorite works!</p>
+
+
+<i class="fa fa-star" style="font-size:36px"></i>
+<i class="fa fa-star-o" style="font-size:36px"></i>
+
+<i class="fa fa-star" 
+[class.fa-star]="isFavorite"
+[class.fa-star-o]="!isFavorite"
+(click)="onClick()"
+style="font-size:48px;color:red">
+</i>
