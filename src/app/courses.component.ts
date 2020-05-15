@@ -68,6 +68,10 @@ export class CoursesComponent{
     };
     text = 'sample text   sample text sample text sample text sample text sample text ' ;
 
+    private newMethod(): string {
+        return 'course';
+    }
+
     // constructor(service: CoursesService){
         
     //     this.courses = service.getCourses();
