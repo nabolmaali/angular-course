@@ -1,6 +1,6 @@
 import { MockBackend } from '@angular/http/testing';
 import { RouterModule } from '@angular/router';
-import { DataService } from './services/data.service';
+import { DataService } from "./services/DataService";
 import { AppErrorHandler } from './common/app-error-handler';
 import { PostService } from './services/post.service';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
@@ -101,7 +101,7 @@ import { AuthGuard } from './services/auth-guard.service';
     BaseRequestOptions,
     CoursesService,
     PostService,
-    DataService,
+    // DataService,
     {provide: ErrorHandler, useClass: AppErrorHandler}
     
   ],
